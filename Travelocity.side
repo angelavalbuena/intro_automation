@@ -1,0 +1,217 @@
+{
+  "id": "40292593-983d-47f7-8586-d971f2e04845",
+  "version": "2.0",
+  "name": "Travelocity",
+  "url": "https://www.travelocity.com",
+  "tests": [{
+    "id": "23f81b28-722e-4ae1-a1a9-8afc3c5fa61a",
+    "name": "xx",
+    "commands": [{
+      "id": "71a3b0a6-8ca9-4415-ba8e-98115ecf0b4d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6143aa9a-3f1c-41c4-aa10-9a25993973fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "967a59dc-f45c-4492-9f84-61bd46b41891",
+      "comment": "",
+      "command": "click",
+      "target": "css=#gcw-flights-form-hp-flight > .cols-nested > .col:nth-child(1) > .autocomplete .btn",
+      "targets": [
+        ["css=#gcw-flights-form-hp-flight > .cols-nested > .col:nth-child(1) > .autocomplete .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//form[@id='gcw-flights-form-hp-flight']/div[3]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear field: Origen. Field value:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eca8d3c2-d810-430f-8d2d-6fcaa3ffe403",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#gcw-flights-form-hp-flight > .cols-nested > .col:nth-child(1) > .autocomplete .btn",
+      "targets": [
+        ["css=#gcw-flights-form-hp-flight > .cols-nested > .col:nth-child(1) > .autocomplete .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//form[@id='gcw-flights-form-hp-flight']/div[3]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear field: Origen. Field value: L')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0e3187c-51e0-499d-8793-7692299fc5d8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.autocomplete-open .btn",
+      "targets": [
+        ["css=.autocomplete-open .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//form[@id='gcw-flights-form-hp-flight']/div[3]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear field: Origen. Field value: LAX')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e927e893-2c05-4865-8008-e477aaf5ebd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#aria-option-0 .multiLineDisplay",
+      "targets": [
+        ["css=#aria-option-0 .multiLineDisplay", "css:finder"],
+        ["xpath=//a[@id='aria-option-0']/span[2]/div", "xpath:idRelative"],
+        ["xpath=//a/span[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cebd7be9-a366-4c7a-8842-19942fa9b28e",
+      "comment": "",
+      "command": "type",
+      "target": "id=flight-origin-hp-flight",
+      "targets": [
+        ["id=flight-origin-hp-flight", "id"],
+        ["css=#flight-origin-hp-flight", "css:finder"],
+        ["xpath=//input[@id='flight-origin-hp-flight']", "xpath:attributes"],
+        ["xpath=//form[@id='gcw-flights-form-hp-flight']/div[3]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/label/input", "xpath:position"]
+      ],
+      "value": "Los Ángeles, CA, Estados Unidos (LAX-A. Internacional de Los Ángeles)"
+    }, {
+      "id": "3e3ca486-3299-4fcd-abb5-3f7146df1915",
+      "comment": "",
+      "command": "click",
+      "target": "css=#gcw-flights-form-hp-flight > .cols-nested > .col:nth-child(2) .btn",
+      "targets": [
+        ["css=#gcw-flights-form-hp-flight > .cols-nested > .col:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//form[@id='gcw-flights-form-hp-flight']/div[3]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear field: Destino. Field value:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34cc7758-d10c-40f5-8f59-e0c931369e40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#gcw-flights-form-hp-flight > .cols-nested > .col:nth-child(2) .btn",
+      "targets": [
+        ["css=#gcw-flights-form-hp-flight > .cols-nested > .col:nth-child(2) .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//form[@id='gcw-flights-form-hp-flight']/div[3]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear field: Destino. Field value:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f16f36d-ba9d-4ccc-b14b-f280ed993512",
+      "comment": "",
+      "command": "type",
+      "target": "id=flight-destination-hp-flight",
+      "targets": [
+        ["id=flight-destination-hp-flight", "id"],
+        ["css=#flight-destination-hp-flight", "css:finder"],
+        ["xpath=//input[@id='flight-destination-hp-flight']", "xpath:attributes"],
+        ["xpath=//form[@id='gcw-flights-form-hp-flight']/div[3]/div[2]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/label/input", "xpath:position"]
+      ],
+      "value": "Las Vegas, Nevada, Estados Unidos (LAS-Todos los aeropuertos)"
+    }, {
+      "id": "c28b90c0-bf9a-446c-99cf-f5aeb5030d79",
+      "comment": "",
+      "command": "click",
+      "target": "id=flight-departing-hp-flight",
+      "targets": [
+        ["id=flight-departing-hp-flight", "id"],
+        ["css=#flight-departing-hp-flight", "css:finder"],
+        ["xpath=//input[@id='flight-departing-hp-flight']", "xpath:attributes"],
+        ["xpath=//div[@id='flight-departing-wrapper-hp-flight']/label/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5256020d-3f42-492b-a84c-a417e23a3c75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused",
+      "targets": [
+        ["css=.focused", "css:finder"],
+        ["xpath=//div[@id='flight-departing-wrapper-hp-flight']/label", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b2ac0c4-6e2a-4def-b39c-4631f9117adf",
+      "comment": "",
+      "command": "click",
+      "target": "id=flight-returning-hp-flight",
+      "targets": [
+        ["id=flight-returning-hp-flight", "id"],
+        ["name=endDate", "name"],
+        ["css=#flight-returning-hp-flight", "css:finder"],
+        ["xpath=//input[@id='flight-returning-hp-flight']", "xpath:attributes"],
+        ["xpath=//div[@id='flight-returning-wrapper-hp-flight']/label/input", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9891f9b8-e342-442d-9387-f13e65911a75",
+      "comment": "",
+      "command": "click",
+      "target": "id=flight-returning-hp-flight",
+      "targets": [
+        ["id=flight-returning-hp-flight", "id"],
+        ["name=endDate", "name"],
+        ["css=#flight-returning-hp-flight", "css:finder"],
+        ["xpath=//input[@id='flight-returning-hp-flight']", "xpath:attributes"],
+        ["xpath=//div[@id='flight-returning-wrapper-hp-flight']/label/input", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0cbdcdb-781b-4017-aabf-e633598d295d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cols-nested:nth-child(23) .btn-primary",
+      "targets": [
+        ["css=.cols-nested:nth-child(23) .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[11]", "xpath:attributes"],
+        ["xpath=//form[@id='gcw-flights-form-hp-flight']/div[9]/label/button", "xpath:idRelative"],
+        ["xpath=//label/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buscar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b38c39bb-3a3f-4031-b348-e3d11505b5c3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Vuelo muy agradable (8.1/10)",
+      "targets": [
+        ["linkText=Vuelo muy agradable (8.1/10)", "linkText"],
+        ["css=#flight-module-2019-09-13t22\\3A 03\\3A 00-07\\3A 00-coach-lax-las-ua-1087_2019-11-10t20\\3A 00\\3A 00-08\\3A 00-coach-las-lax-as-459_ .very-good", "css:finder"],
+        ["xpath=//a[contains(text(),'Vuelo muy agradable (8.1/10)')]", "xpath:link"],
+        ["xpath=//li[@id='flight-module-2019-09-13t22:03:00-07:00-coach-lax-las-ua-1087_2019-11-10t20:00:00-08:00-coach-las-lax-as-459_']/div/div/div/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#route-happy-0')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vuelo muy agradable (8.1/10)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b62cdd0e-dcc1-4d66-95ad-2fa48c482431",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["23f81b28-722e-4ae1-a1a9-8afc3c5fa61a"]
+  }],
+  "urls": ["https://www.travelocity.com/"],
+  "plugins": []
+}
