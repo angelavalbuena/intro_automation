@@ -1,0 +1,262 @@
+{
+  "id": "c3662f7f-95ce-4b92-af70-a3f3084a11f1",
+  "version": "2.0",
+  "name": "Proyecto Dashboard",
+  "url": "http://localhost:8088",
+  "tests": [{
+    "id": "1b7ddc63-3b82-413a-a05f-43564a96939e",
+    "name": "Crear Proyecto",
+    "commands": [{
+      "id": "7577aad1-f3be-4993-95dc-19d3a88f6cc3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "415baac0-8401-4458-9b30-d3a4a6c115a1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "969x681",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ed4be30-9bb9-4323-9c39-730986d06fcf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=New project",
+      "targets": [
+        ["linkText=New project", "linkText"],
+        ["css=ul:nth-child(1) > li:nth-child(1) > .js-modal-medium", "css:finder"],
+        ["xpath=(//a[contains(text(),'New project')])[2]", "xpath:link"],
+        ["xpath=//section[@id='main']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/project/create')])[3]", "xpath:href"],
+        ["xpath=//section/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7312e4d-fac2-471f-ad83-4ee1974a9520",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-name",
+      "targets": [
+        ["id=form-name", "id"],
+        ["name=name", "name"],
+        ["css=#form-name", "css:finder"],
+        ["xpath=//input[@id='form-name']", "xpath:attributes"],
+        ["xpath=//form[@id='project-creation-form']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Proyecto Test"
+    }, {
+      "id": "5345f834-b0b6-4d85-ba6b-37b4a8517f78",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-identifier",
+      "targets": [
+        ["id=form-identifier", "id"],
+        ["name=identifier", "name"],
+        ["css=#form-identifier", "css:finder"],
+        ["xpath=//input[@id='form-identifier']", "xpath:attributes"],
+        ["xpath=//form[@id='project-creation-form']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec939cd1-3abc-4569-84b2-b719e9be384b",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-identifier",
+      "targets": [
+        ["id=form-identifier", "id"],
+        ["name=identifier", "name"],
+        ["css=#form-identifier", "css:finder"],
+        ["xpath=//input[@id='form-identifier']", "xpath:attributes"],
+        ["xpath=//form[@id='project-creation-form']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Projecttest"
+    }, {
+      "id": "68664d28-8b00-4ffe-9c15-8014ebbb4a7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='project-creation-form']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4785ffa5-cf44-4160-b0fa-313cc5131fb2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Summary",
+      "targets": [
+        ["linkText=Summary", "linkText"],
+        ["css=.active > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Summary')]", "xpath:link"],
+        ["xpath=//section[@id='main']/section/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/project/1')])[4]", "xpath:href"],
+        ["xpath=//section/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Summary')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6b3940a-5e57-4a02-8ff0-0b9284f218a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Custom filters",
+      "targets": [
+        ["linkText=Custom filters", "linkText"],
+        ["css=.sidebar li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Custom filters')]", "xpath:link"],
+        ["xpath=//section[@id='main']/section/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/project/1/customer-filters')]", "xpath:href"],
+        ["xpath=//section/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Custom filters')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "280cd690-c6ea-4fb9-9f62-eb6ab4a55ab5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Edit project",
+      "targets": [
+        ["linkText=Edit project", "linkText"],
+        ["css=.sidebar li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Edit project')]", "xpath:link"],
+        ["xpath=//section[@id='main']/section/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/project/1/edit')]", "xpath:href"],
+        ["xpath=//section/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Edit project')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "df470fff-ee62-4fee-91e1-154b0db55c60",
+    "name": "Crear Board",
+    "commands": [{
+      "id": "e43bc2fe-18de-4013-bc63-0f3c84c48ee4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22b4e304-eaf8-4e25-baeb-611164614fd6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "969x681",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "800c9716-a80b-4b9e-b663-ee78caec336c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My projects",
+      "targets": [
+        ["linkText=My projects", "linkText"],
+        ["css=.sidebar li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My projects')]", "xpath:link"],
+        ["xpath=//section[@id='dashboard']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard/1/projects')]", "xpath:href"],
+        ["xpath=//section/section/section/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My projects')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16186d20-0397-46db-8209-88f771772680",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Proyecto Test",
+      "targets": [
+        ["linkText=Proyecto Test", "linkText"],
+        ["css=.table-list-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Proyecto Test')]", "xpath:link"],
+        ["xpath=//section[@id='dashboard']/div[2]/div[2]/div[2]/div/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/board/1')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Proyecto Test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0d6b2bb-4988-46a6-952a-d1dcb4ae27a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.board-column-header-1 .board-add-icon .fa",
+      "targets": [
+        ["css=.board-column-header-1 .board-add-icon .fa", "css:finder"],
+        ["xpath=//table[@id='board']/tbody/tr/th/div[2]/div/a/i", "xpath:idRelative"],
+        ["xpath=//th/div[2]/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f0e5f15-38c1-4f6b-999b-8302474d6f54",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-title",
+      "targets": [
+        ["id=form-title", "id"],
+        ["name=title", "name"],
+        ["css=#form-title", "css:finder"],
+        ["xpath=//input[@id='form-title']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd33d159-2ca0-411e-9a4f-f19751a69de0",
+      "comment": "",
+      "command": "type",
+      "target": "id=form-title",
+      "targets": [
+        ["id=form-title", "id"],
+        ["name=title", "name"],
+        ["css=#form-title", "css:finder"],
+        ["xpath=//input[@id='form-title']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Crear tarea 1"
+    }, {
+      "id": "a6e7374c-b1d0-4e85-bddd-88186268f5af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/form/div/div[4]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f13c6a45-7428-4987-a1df-294b8c713fbe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/form/div/div[4]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "95f10d92-b45b-4cd3-8e34-82ce7aed8930",
+    "name": "KB",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1b7ddc63-3b82-413a-a05f-43564a96939e"]
+  }],
+  "urls": ["http://localhost:8088/"],
+  "plugins": []
+}
